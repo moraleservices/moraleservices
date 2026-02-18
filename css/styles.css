@@ -10832,3 +10832,26 @@ textarea.form-control-lg {
   width: 4rem;
   font-size: 2rem;
 }
+/* REDES SOCIALES FLOTANTES */
+#redes-sociales-flotantes {
+  position: fixed !important;
+  left: 20px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  z-index: 999999 !important;
+}
+
+#redes-sociales-flotantes img {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: 0.25s;
+}
+
+#redes-sociales-flotantes img:hover {
+  transform: scale(1.12);
+}
